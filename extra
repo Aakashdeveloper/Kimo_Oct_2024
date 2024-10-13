@@ -1,0 +1,13 @@
+https://code.visualstudio.com/ (install)
+https://github.com/ (Signup)
+https://git-scm.com/downloads (install)
+https://nodejs.org/en (install)
+https://www.postman.com/ (install)
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+
+git push -u origin main
