@@ -30,3 +30,26 @@ Extension
 html > main tag wrapper
 head > any linking with CSS or javascript
 body> Everything visible on website
+
+
+inline
+> they start from in same line
+> only take the space which is required
+> a span img
+
+block level
+> always start from new line
+> will take whole width of screen
+> p div header
+
+
+profile
+----------------
+Name
+Image
+Something about you
+skills
+hobbies
+map
+social link
+footer
