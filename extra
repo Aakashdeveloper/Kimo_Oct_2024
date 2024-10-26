@@ -53,3 +53,32 @@ hobbies
 map
 social link
 footer
+
+inline  > styletag> stylesheet
+
+
+inline
+{
+    height:50px;
+    width:30px;
+}
+
+styletag{
+    height:80px;
+    background:green;
+    font-size:30px
+}
+
+stylesheet{
+    width:90px;
+    background:orange;
+    display:flex
+}
+
+{
+    height:50px;
+    width:30px; 
+    background:green;
+    font-size:30px;
+     display:flex
+}
