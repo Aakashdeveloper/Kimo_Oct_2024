@@ -1,0 +1,52 @@
+a{
+    color:red
+}
+.card{
+    height:400px;
+    background-color:#8ecbe6;
+    width:20%;
+    margin-left:3%;
+    overflow: scroll;
+    margin-top: 2%;
+    
+}
+.blue{
+    background-color:rgb(156, 235, 238)
+}
+#brown{
+    background-color:rgb(168, 126, 68)
+}
+.myclass{
+    background-color:rgb(231, 209, 149)
+}
+/*Main div*/
+#main{
+display: flex;
+flex-wrap: wrap;
+}
+
+/* a{
+    color:red
+}
+.card{
+    height:400px;
+    background-color:#8ecbe6;
+    width:20%;
+    float:left;
+    margin-left:3%;
+    overflow: scroll;
+}
+.blue{
+    background-color:rgb(156, 235, 238)
+}
+#brown{
+    background-color:rgb(168, 126, 68)
+}
+.myclass{
+    background-color:rgb(231, 209, 149)
+}
+/*Main div*/
+/*
+#main{
+   display:inline-block
+} */

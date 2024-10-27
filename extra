@@ -82,3 +82,23 @@ stylesheet{
     font-size:30px;
      display:flex
 }
+
+/////
+TagName
+a{
+
+}
+
+ClassName
+> .
+> If you want to target multiple elmenet with same property
+> we can provide mulitple className to one tag
+
+Id
+> #
+> if you want to target something unique
+> only one id to one tag
+
+
+
+https://forms.gle/akAVbHJUnEeFH91QA
