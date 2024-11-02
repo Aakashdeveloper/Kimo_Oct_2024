@@ -3,7 +3,7 @@ a{
 }
 .card{
     height:400px;
-    background-color:#8ecbe6;
+    background-color:#bbc6ea;
     width:20%;
     margin-left:3%;
     overflow: scroll;
@@ -11,10 +11,10 @@ a{
     
 }
 .blue{
-    background-color:rgb(156, 235, 238)
+    background-color:#6cb5e1
 }
 #brown{
-    background-color:rgb(168, 126, 68)
+    background-color:#ddbc8d
 }
 .myclass{
     background-color:rgb(231, 209, 149)
