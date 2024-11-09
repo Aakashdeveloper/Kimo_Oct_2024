@@ -38,14 +38,133 @@ header{
     height: 50px;
 }
 
+#logo{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 44%;
+    margin-top: 2%;
+    position:absolute;
+    font-size: 90px;
+}
+
+#logo span{
+    margin-left: 19%;
+    margin-top: 13%;
+    position:absolute;
+}
+
+#heading{
+    font-size: 60px;
+    margin-left: 29%;
+    margin-top: 14%;
+    position:absolute;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.dropdown{
+    height:60px;
+    width:50%;
+    /* border: 2px solid white; */
+    margin-left: 27%;
+    margin-top: 22%;
+    position:absolute;
+
+}
+
+select{
+    height:60px;
+    width:40%;
+    font-size:20px;
+    text-align: center;
+}
+
+#restSelect{
+    width:59%
+}
+
 /* QuickSearch Css */
 #QuickSearch{
-    height:600px;
-    border: 10px double green;
+    /* height:600px; */
+    /* border: 10px double green; */
+    width:80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.quickHeading{
+    color:#3b2632;
+    font-size: 30px;
+    display: block;
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+.quickSubHeading{
+    color:gray;
+    font-size: 20px;
+    line-height: 2;
+    margin-left: 2%;
+}
+
+#mainBox{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.tileContainer{
+    height:180px;
+    width:30%;
+    /* border: 5px solid green; */
+    margin-left: 2%;
+    margin-top: 2%;
+    display: flex;
+    box-shadow: 10px 20px 5px gray;
+}
+
+.tileComponent1{
+    width:52%
+}
+.tileComponent1 > img {
+    height: 100%;
+    width:100%
+}
+
+.tileComponent2{
+    width:40%;
+    margin-left:5%
+}
+
+.compHeading{
+    margin-top: 35%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3b2632;
 }
 
 /* Footer Css */
 footer{
-    height:60px;
-    border:5px dashed orange
+    /* height:60px; */
+    text-align: center;
+    color: white;
+   
+    background-color: #3b2632;
+}
+.footDiv{
+    display: inline-block;
+    width:32%;
+    border-right: 2px solid white ;
+}
+
+.noborder{
+    border:none
+}
+
+ul{
+    list-style-type: none;
 }
