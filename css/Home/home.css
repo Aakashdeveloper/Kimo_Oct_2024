@@ -47,6 +47,31 @@ header{
     margin-top: 2%;
     position:absolute;
     font-size: 90px;
+    animation: rotate 10s infinite;
+}
+
+@keyframes rotate {
+    0%{
+        margin-left:2% ;
+        transform: rotate(30deg);
+       
+    }
+    25%{
+        margin-left:20% ;
+        transform: rotate(90deg);
+    }
+    50%{
+        margin-left:40% ;
+        transform: rotate(180deg);
+    }
+    75%{
+        margin-left:80% ;
+        transform: rotate(270deg);
+    }
+    100%{
+        margin-left:40% ;
+        transform: rotate(360deg);
+    }
 }
 
 #logo span{
@@ -104,6 +129,11 @@ select{
     font-weight: bold;
 }
 
+.quickHeading:hover{
+    font-size: 40px;
+    color:#e3cef6
+}
+
 .quickSubHeading{
     color:gray;
     font-size: 20px;
@@ -125,6 +155,38 @@ select{
     margin-top: 2%;
     display: flex;
     box-shadow: 10px 20px 5px gray;
+    animation: dance 20s infinite;
+}
+
+@keyframes dance {
+    0%{
+        transform: rotate(-5deg);
+        background-color: #efe4ea;
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    40%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: rotate(5deg); 
+        background-color: #e371b0;
+    }
+    75%{
+        transform: rotate(0deg); 
+    }
+    100%{
+        transform: rotate(-5deg); 
+        background-color: #efe4ea;
+    }
+}
+
+.tileContainer:hover{
+    transform: scale(1.1);
+    /* transform: skewX(40deg) */
+    /* transform: rotate(180deg) */
+    /* transform: translate(50px, 80px); */
 }
 
 .tileComponent1{
@@ -167,4 +229,40 @@ footer{
 
 ul{
     list-style-type: none;
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color: skyblue;
+    } 
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(245, 192, 173);
+    } 
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(245, 243, 173);
+    } 
+}
+
+@media screen and (max-width:1050px){
+    body{
+        background-color: rgb(173, 245, 180);
+    } 
+    .tileContainer{
+        width:45%
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(245, 173, 238);
+    } 
+    .tileContainer{
+        width:90%
+    }
 }
