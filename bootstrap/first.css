@@ -1,0 +1,55 @@
+#first{
+    height:200px;
+    background-color: violet;
+}
+#second{
+    height:200px;
+    background-color: indigo
+}
+#third{
+    height:200px;
+    background-color: rgb(130, 209, 238);
+}
+#fourth{
+    height:200px;
+    background-color: green;
+}
+#fifth{
+    height:200px;
+    background-color: yellow;
+}
+#sixth{
+    height:200px;
+    background-color: orange;
+}
+#seventh{
+    height:200px;
+    background-color: red;
+}
+
+.btn-purple{
+    background-color: indigo;
+    color:white
+}
+
+.cloud{
+    font-size:30px;
+    color:skyblue
+}
+.heart{
+    font-size:30px;
+    color:red
+}
+.edit{
+    font-size:20px;
+    color:green
+}
+.trash{
+    font-size:20px;
+    color:red
+}
+
+.sliderImage{
+    height:300px !important;
+    width:100%
+}

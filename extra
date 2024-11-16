@@ -106,7 +106,12 @@ https://forms.gle/akAVbHJUnEeFH91QA
 position: absolute
 positiin:relative 
 
+https://www.w3schools.com/bootstrap/default.asp
 bootstrap 3
+xs < 768px
+sm > 768px
+md > 992px
+lg > 1200px
 
 
 bootstrap 4
