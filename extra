@@ -115,4 +115,21 @@ lg > 1200px
 
 
 bootstrap 4
+col- < 576px
+sm > 576px
+md > 768px
+lg > 992px
+xl > 1200px
+
 bootstrap 5
+col- < 576px
+sm > 576px
+md > 768px
+lg > 992px
+xl > 1200px
+xxl > 1400px
+
+
+<!--Font Awsome-->
+<script src="https://kit.fontawesome.com/c4338603d0.js" crossorigin="anonymous"></script>
+  
